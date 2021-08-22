@@ -1,8 +1,8 @@
 import path from 'path';
 import fs from 'fs';
 
-// const root = path.resolve('/', 'media', 'titenq', 'backup', 'dev');
-const root = path.resolve('/');
+// const root = path.resolve('/'); // don't use in root folder
+const root = path.resolve('/', 'media', 'titenq', 'backup', 'dev');
 // const __dirname = path.resolve();
 // const getUserRootFolder = () => process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
 
